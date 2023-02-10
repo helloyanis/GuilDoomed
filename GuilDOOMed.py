@@ -1,12 +1,11 @@
+token = "your token here"  # Your bot token between the quotes
+commands_channel_name = "Commands" # The name of the channel where you want to use the bot (can only be a text channel)
+
+
+############################################
 import time
 import pyautogui
 import guilded
-token = "your token here"  # Your bot token between the quotes
-
-# The name of the channel where you want to use the bot (can only be a text channel)
-commands_channel_name = "Commands"
-
-############################################
 
 client = guilded.Client()
 
