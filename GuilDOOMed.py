@@ -1,4 +1,11 @@
-import guilded, pyautogui, time
+token = "your token here"  # Your bot token between the quotes
+commands_channel_name = "Commands" # The name of the channel where you want to use the bot (can only be a text channel)
+
+############################################
+import time
+import pyautogui
+import guilded
+
 client = guilded.Client()
 
 
@@ -9,7 +16,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.author == client.user or message.channel.name != "Commands":
+    if message.author == client.user or message.channel.name != commands_channel_name:
         return
     match (message.content.lower()):
 
