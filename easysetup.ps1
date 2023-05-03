@@ -18,7 +18,9 @@ if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
     Write-Host "Press any key to continue and open the file."
     $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
     notepad $directoryName"\GuilDOOMed.py"
-    Write-Host "You are now done setting up! Read the README on Github on how to start the bot. Press any key to exit."
+    Write-Host "You are now done setting up! Read the README on Github on how to start the bot. https://github.com/helloyanis/GuilDoomed/blob/main/README.md"
+    Write-Host "Press any key to exit."
+    $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 }
 else {
     Write-Host "No directory selected"
