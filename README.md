@@ -21,7 +21,7 @@ The file will install the script, Python, Python modules and guide you through t
 **!Be careful! The bot controls your keypresses! Only stay focused on the DOOM window while the bot is running!**
 - To stop the bot, close the terminal window
 
-#Troubleshooting
+# Troubleshooting
 If the window opens then closes, that means an error occured. To see what happened,
 - Open IDLE (Search it in Windows search)
 - Click File > Open (or press CTRL+O) and open GuilDOOMed.py
