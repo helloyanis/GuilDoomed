@@ -1,8 +1,10 @@
 # Initial Setup
 **Easy setup for Windows**
+- Open CMD or your terminal **as administrator**, and type `set-executionpolicy unrestricted` and press enter. This is because Windows disables by default the execution of powershell scripts.
 - Download [easysetup.ps1](https://raw.githubusercontent.com/helloyanis/GuilDoomed/main/easysetup.ps1) (Right-click > Save as)
-- Right-click file and click "Run with PowerShell"
-The file will install the script, Python, Python modules and guide you through the setup!
+- Right-click file and click "Run with PowerShell". This will install the script, Python, Python modules and guide you through the setup!
+- Open CMD or your terminal **as administrator**, and type `set-executionpolicy default` when you are done running the script.
+
 
 **Manual setup**
 - Download the [GuilDOOMed.py](https://raw.githubusercontent.com/helloyanis/GuilDoomed/main/GuilDOOMed.py) file (Right-click > Save as)
