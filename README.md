@@ -1,3 +1,6 @@
+# ‼️This repository was archived due to Roblox login becoming mandatory on Guilded.
+Code is still avilable, but no longer updated.
+
 # Initial Setup
 **Easy setup for Windows**
 - Open CMD or your terminal **as administrator**, and type `set-executionpolicy unrestricted` and press enter. This is because Windows disables by default the execution of powershell scripts.
